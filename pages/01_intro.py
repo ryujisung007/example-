@@ -2,9 +2,9 @@ import streamlit as st
 from pathlib import Path
 
 st.title("📘 2018 요르단 개황 분석 프로젝트")
-st.markdown("""
+st.markdown(""
 이 앱은 요르단 개황 PDF를 기반으로 국가 거시지표, 산업 구조, 리스크 요인 등을 분석하는 Streamlit 대시보드입니다.
-""")
+"")
 
 st.header("🔍 분석 대상 PDF")
 pdf_path = Path("data/2018_jordan.pdf")
